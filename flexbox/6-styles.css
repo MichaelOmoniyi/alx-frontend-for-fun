@@ -357,7 +357,7 @@ ul.row {
       ============================= */
 
 .nav {
-    display: flex;
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -369,6 +369,9 @@ ul.row {
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
+}
+
+.nav .nav-item + .nav-item {
   margin: var(--nav-item-margin);
 }
 
@@ -403,8 +406,8 @@ ul.row {
       ============================= */
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
