@@ -1,0 +1,50 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.box {
+    padding: 20px 10px;
+    color: white;
+    text-align: center;
+}
+
+.box1 {
+    background-color: rgb(49, 223, 58);
+    flex-basis: 5%;
+    /* flex: 1 0% auto; */
+}
+
+.box2 {
+    background-color: rgb(28, 131, 216);
+    /* flex: 1 0% auto; */
+    font-size: 150%;
+    flex-basis: 15%;
+}
+
+.box3 {
+    background-color: rgba(7, 13, 48, 0.836);
+    font-size: 300%;
+    flex-basis: 30%;
+}
+
+.box4 {
+    background-color: blueviolet;
+    font-size: 150%;
+    flex-basis: 15%;
+}
+
+.box5 {
+    background-color: rgb(245, 117, 12);
+    flex-basis: 5%;
+}
